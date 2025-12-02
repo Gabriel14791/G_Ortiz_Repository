@@ -1,0 +1,142 @@
+body {
+    position: relative;
+    background-color: #222222;
+    color: #DDDDDD;
+}
+
+.card, .card-deck .card, .card-group .card {
+    background-color: #333333;
+    color: #DDDDDD;
+    border: 1px solid #444444;
+}
+
+.list-group-item {
+    background-color: #333333 !important;
+    color: #DDDDDD !important;
+    border-color: #444444 !important;
+}
+
+.pt-6{
+    padding-top: 6rem;
+}
+
+.imgHome{
+    width: 100%;
+}
+
+.nav-link {
+    padding: 0.6rem 0.6rem;
+    color: greenyellow;
+}
+
+.navbar{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #000000 !important;
+    font-size: 18px;
+}
+
+.navbar .nav-link:hover {
+    background-color: greenyellow;
+    color: #000000;
+}
+
+#navbar .nav-link.active,
+#join-us-link.active {
+    background-color: greenyellow !important;
+    color: black !important;
+}
+
+#carouselExampleIndicators .carousel-item img {
+    height: 650px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#join_us_link {
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+.navbar_logo {
+    height: 45px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #00FF00 !important;
+    text-shadow: 0 0 5px #00FF00;
+}
+
+#Team .card {
+    border: 3px solid #39FF14 !important;
+    box-shadow: 0 0 10px rgba(57, 255, 20, 0.7);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#Team .card-phrase {
+    font-size: 0.95rem;
+    padding-top: 5px;
+    border-top: 1px dashed #444444;
+}
+
+#Team .card_hacker_img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.carousel-caption .btn {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    border-width: 3px !important; 
+}
+
+#Services .card {
+    border: 3px solid #FFFFFF !important;
+    box-shadow: 0 0 10px #FFFFFF;
+    border-radius: 10px;
+}
+
+#Services .card_serv_img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+#map-responsive {
+    overflow: hidden;
+    padding-bottom: 75%;
+    position: relative;
+    height: 0;
+}
+
+#map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    filter: grayscale(80%) invert(90%) hue-rotate(180deg);
+}
+
+.card-img {
+    padding-left: 20px;
+}
+
+.map_responsive {
+    padding-top: 7px;
+    padding-left: 30px;
+}
+
+#Join_Us {
+    background-color: #000000 !important;
+}
